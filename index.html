@@ -16,9 +16,23 @@
 		<link rel="stylesheet" href="css/gridset.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/media.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+        <script>
+           function changeScreenSize(w,h)
+             {
+               window.resizeTo( w,h )
+             }
+             
+        </script>
+        
+        
     </head>
     <body>
+    
+    <body onload="changeScreenSize(1370,960)">
+    
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -47,6 +61,12 @@
         </p>
         
 		</div>
+		
+		<div class="t3-t4" id="mobileitem">
+		<img src="img/button/button-shards.png">
+		<p><br><br> Please come back on a desktop device to continue.</p>
+		</div>
+		
 		
 				<a href="about.html"><img src="img/info.png" class="infobutton" width="50"></img></a>
 				<a href="tutorial.html"><img src="img/about/instruct.png" class="instructionbutton1" width="50"></a>

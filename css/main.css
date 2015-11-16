@@ -63,6 +63,7 @@ user-drag: none;
 position:absolute;
 	top: 94%;
 	left: 4%;
+			
 }
 
 .feedbutton:hover {
@@ -242,6 +243,7 @@ body {
 	user-drag: none; 
 	-moz-user-select: none;
 	-webkit-user-drag: none;
+	position:fixed;
 }
 
 
@@ -366,6 +368,7 @@ user-drag: none;
 -webkit-user-drag: none;
 position:absolute;
 	top: 94%;
+	position:fixed;
 }
 
 .homebutton:hover {
@@ -421,12 +424,12 @@ top: 200px;
 
 /* FEED */
 
-.socialfeed {
+/*.socialfeed {
 	height: 1086px;
 	overflow: scroll;
-	padding-top: 50px;
+	padding-top: 50px;*/
 	
-}
+
 
 
 
