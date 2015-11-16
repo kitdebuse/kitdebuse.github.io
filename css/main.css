@@ -20,8 +20,7 @@ video#bgvid { transition: 1s opacity; }
 .stopfade { opacity: 0.2; }
 
 #vidpause {
-	height: 40px;
-	width: 40px;
+	max-width: 3%;
 	cursor: pointer;
 	user-drag: none; 
 	-moz-user-select: none;
@@ -37,8 +36,7 @@ video#bgvid { transition: 1s opacity; }
 
 
 .infobutton {
-height: 40px;
-width: 40px;
+	max-width: 3%;
 cursor: pointer;
 user-drag: none; 
 -moz-user-select: none;
@@ -54,8 +52,7 @@ position:absolute;
 }
 
 .feedbutton {
-height: 40px;
-width: 40px;
+	max-width: 3%;
 cursor: pointer;
 user-drag: none; 
 -moz-user-select: none;
@@ -208,16 +205,17 @@ body {
 
 
 .logo {
-	width: 100%;
+	max-width: 70%;
+	
 	padding-top: 25%;
+	padding-right: 15%;
 	user-drag: none; 
 	-moz-user-select: none;
 	-webkit-user-drag: none;
-
+	padding-left: 15%;
 }
 
 .intro {
-	margin-top: 0px;
 	text-align: center;
 	color: white;
 }
@@ -348,10 +346,18 @@ margin-top:  20px;
 
 /* ABOUT PAGE */
 
-.abouttext {
-color: white;
-max-width: 240px;
 
+ #abouttext2 {
+    width: 15%;
+	text-align: left;
+}
+
+
+.abouttext {
+	color: white;
+	text-align: left;
+	margin-right: 10%;
+	
 }
 
 .infopage {
@@ -360,8 +366,7 @@ max-width: 240px;
 }
 
 .homebutton {
-height: 40px;
-width: 40px;
+	max-width: 3%;
 cursor: pointer;
 user-drag: none; 
 -moz-user-select: none;
@@ -377,8 +382,7 @@ position:absolute;
 }
 
 .instructionbutton {
-height: 40px;
-width: 40px;
+	max-width: 3%;
 cursor: pointer;
 user-drag: none; 
 -moz-user-select: none;
@@ -395,8 +399,7 @@ position:absolute;
 
 
 .instructionbutton1 {
-height: 40px;
-width: 40px;
+	max-width: 3%;
 cursor: pointer;
 user-drag: none; 
 -moz-user-select: none;
