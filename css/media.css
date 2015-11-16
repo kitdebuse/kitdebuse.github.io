@@ -3,7 +3,7 @@
 #mobileitem {
 	color: white;
 	text-align: center;
-	padding-top: 50%;
+	padding-top: 30%;
 	
 }
 
@@ -44,8 +44,7 @@
 	  }
 	  
 	  	  #vidpause {
-	  	  	top: 0px;
-	  	  	padding: 15px 0px 0px 5px;
+	  	  	display: none;
 	  
 	  	  }
 	  
